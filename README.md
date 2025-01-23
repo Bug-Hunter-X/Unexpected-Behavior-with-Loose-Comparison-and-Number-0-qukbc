@@ -1,0 +1,3 @@
+# Unexpected Behavior with Loose Comparison and Number 0
+
+This code demonstrates a common JavaScript error stemming from loose comparison (==) and the handling of the number 0.  The function `foo` aims to categorize numbers as negative, zero, or positive, but it produces an unexpected result for the input 0 because of JavaScript's loose equality behavior with null and zero.  The solution shows how to use strict equality (===) for clearer and more predictable comparisons.
